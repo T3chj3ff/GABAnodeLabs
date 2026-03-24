@@ -1,13 +1,9 @@
-import Hero from '@/components/Hero';
-import InteractiveConsole from '@/components/InteractiveConsole';
-import Footer from '@/components/Footer';
+import BentoGrid from '@/components/BentoGrid';
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <InteractiveConsole />
-      <Footer />
+      <BentoGrid />
     </>
   );
 }
