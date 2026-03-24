@@ -155,7 +155,8 @@ a:hover, :focus-visible { color: var(--color-primary-hover); }
 .tile-contact { grid-area: contact; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
 .logo-3d-wrapper { position: relative; display: flex; align-items: center; justify-content: center; height: 100%; width: 100%; animation: float 6s ease-in-out infinite; }
-.logo-text { font-size: clamp(2.5rem, 4vw, 3.5rem); font-weight: 800; line-height: 1.1; background: linear-gradient(135deg, #fff, var(--color-primary)); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; text-shadow: 0 10px 30px rgba(59, 130, 246, 0.5); z-index: 2; }
+.giant-node-logo { width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--color-primary), var(--color-success)); box-shadow: 0 0 50px rgba(59, 130, 246, 0.6), inset 0 0 20px rgba(255, 255, 255, 0.5); z-index: 2; animation: pulseGlow 3s infinite; position: relative; }
+.giant-node-logo::after { content: ''; position: absolute; top: 10%; left: 15%; width: 30%; height: 30%; background: rgba(255,255,255,0.8); border-radius: 50%; filter: blur(5px); }
 .mesh-gradient-bg { position: absolute; top: 50%; left: 50%; width: 150%; height: 150%; background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.4), transparent 60%), radial-gradient(circle at 80% 20%, rgba(16, 185, 129, 0.2), transparent 50%); transform: translate(-50%, -50%); filter: blur(40px); z-index: 0; animation: pulseGlow 8s alternate infinite; }
 
 .tile-bio { align-items: center; text-align: center; padding: var(--space-4); }
