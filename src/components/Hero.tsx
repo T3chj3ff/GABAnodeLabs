@@ -7,14 +7,14 @@ export default function Hero() {
         <div className="hero-content animate-fade-up">
           <div className="pill delay-1">
             <span className="pill-dot" aria-hidden="true"></span>
-            {' v2.0 Architecture Released'}
+            {' Intelligent Infrastructure'}
           </div>
           <h1 id="hero-title" className="hero-heading delay-2">
-            Deterministic Automation &<br />
-            <span className="text-gradient">System Architecture</span>
+            Integrated Systems for<br />
+            <span className="text-gradient">Accessibility & Compliance</span>
           </h1>
           <p className="hero-description delay-3">
-            GABAnode Labs engineers deterministic, highly-available intelligent pipelines. We transform abstract data into executable, validated actions at scale via advanced Generative Engine Optimization.
+            GABAnode Labs builds integrated systems that unify accessibility, compliance, and intelligence into a single operational framework.
           </p>
           <div className="hero-actions delay-3">
             <a href="#architecture" className="btn btn-primary">Explore Our Pipeline</a>

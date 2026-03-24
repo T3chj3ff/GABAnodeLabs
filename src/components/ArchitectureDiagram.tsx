@@ -12,7 +12,7 @@ export default function ArchitectureDiagram() {
   return (
     <section id="architecture" className="architecture-section container" aria-labelledby="arch-title">
       <h2 id="arch-title" className="section-title">Core System Architecture</h2>
-      <p className="section-subtitle">Our 5-stage deterministic pipeline guarantees structural integrity from ingestion to distribution.</p>
+      <p className="section-subtitle">Our 5-stage pipeline guarantees structural integrity, accessibility, and compliance from ingestion to distribution.</p>
       
       <div className="diagram-container">
         {steps.map((step, index) => (

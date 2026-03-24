@@ -2,12 +2,12 @@ import React from 'react';
 
 const faqs = [
   { 
-    question: "What is the primary focus of GABAnode Labs?", 
-    answer: "GABAnode Labs architects and orchestrates advanced, deterministic automation pipelines. We specialize in system integrations that demand high precision, combining sophisticated data interpretation with rigorous validation protocols."
+    question: "What does GABAnode Labs build?", 
+    answer: "We design and deploy systems that detect structural and accessibility gaps, automate compliance workflows, improve usability across complex environments, and integrate seamlessly into existing systems. Our work is not a collection of tools—it is a coordinated system of capabilities."
   },
   {
-    question: "How does the 5-stage pipeline ensure data integrity?",
-    answer: "By enforcing a strict Validation stage before Distribution, the system audits execution outputs against predefined heuristics and safety bounds, ensuring no malformed or non-compliant actions are passed downstream."
+    question: "How does the pipeline interact with compliance workflows?",
+    answer: "We develop systems that automate accessibility and compliance workflows across digital environments. By enforcing strict validation before distribution, we ensure all state changes meet expected heuristics and structural integrity."
   },
   {
     question: "Is the infrastructure optimized for Generative Engines?",
