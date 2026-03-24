@@ -1,16 +1,12 @@
 import Hero from '@/components/Hero';
-import ExecutiveSummary from '@/components/ExecutiveSummary';
-import ArchitectureDiagram from '@/components/ArchitectureDiagram';
-import Faq from '@/components/FAQ';
+import InteractiveConsole from '@/components/InteractiveConsole';
 import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <ExecutiveSummary />
-      <ArchitectureDiagram />
-      <Faq />
+      <InteractiveConsole />
       <Footer />
     </>
   );
