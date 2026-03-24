@@ -7,10 +7,9 @@ export default function BentoGrid() {
       
       <div className="bento-grid">
         {/* Logo Tile */}
-        <section className="bento-tile tile-logo hover-float animate-fade-up" style={{ animationDelay: '0.1s' }} aria-label="GABAnode Labs Brand">
+        <section className="bento-tile tile-logo animate-fade-up" style={{ animationDelay: '0.1s' }} aria-label="GABAnode Labs Brand">
           <div className="logo-3d-wrapper">
-             <div className="mesh-gradient-bg"></div>
-             <div className="giant-node-logo"></div>
+             <img src="/images/gn-logo.jpeg" alt="GABAnode Labs Teal Identity" className="brand-logo-img hover-float" />
           </div>
         </section>
 
