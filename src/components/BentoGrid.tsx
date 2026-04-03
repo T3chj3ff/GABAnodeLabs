@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function BentoGrid() {
   return (
@@ -9,7 +10,7 @@ export default function BentoGrid() {
         {/* Logo Tile */}
         <section className="bento-tile tile-logo animate-fade-up" style={{ animationDelay: '0.1s' }} aria-label="GABAnode Labs Brand">
           <div className="logo-3d-wrapper">
-             <img src="/images/gn-logo.jpeg" alt="GABAnode Labs Teal Identity" className="brand-logo-img hover-float" />
+             <Image src="/images/gn-logo-clean-transparent.png" alt="GABAnode Labs Teal Identity" className="brand-logo-img hover-float" width={400} height={300} priority />
           </div>
         </section>
 
@@ -67,7 +68,7 @@ export default function BentoGrid() {
         {/* Contact */}
         <section className="bento-tile tile-contact hover-glow animate-fade-up" style={{ animationDelay: '1.1s' }} aria-label="Contact Information">
           <h2 className="sr-only">Contact Us</h2>
-          <a href="mailto:systems@gabanodelabs.com" className="btn btn-primary btn-full">Contact Lab</a>
+          <a href="mailto:admin@gabanodelab.com" className="btn btn-primary btn-full">Contact Lab</a>
         </section>
       </div>
     </main>

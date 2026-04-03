@@ -10,9 +10,9 @@ export default function Navbar() {
         </div>
         <nav aria-label="Main Navigation">
           <ul className="nav-links">
-            <li><a href="#architecture">Architecture</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#get-started" className="btn btn-primary btn-sm">Access Lab</a></li>
+            <li><a href="#what-title">What</a></li>
+            <li><a href="#who-title">Who</a></li>
+            <li><a href="mailto:admin@gabanodelab.com" className="btn btn-primary btn-sm">Contact Lab</a></li>
           </ul>
         </nav>
       </div>

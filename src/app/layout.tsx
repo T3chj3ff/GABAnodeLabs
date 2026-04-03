@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import AxeProvider from "@/components/AxeProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -49,13 +51,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body suppressHydrationWarning>
-        <a href="#main-content" className="sr-only focus-visible:not-sr-only skip-link">
-          Skip to main content
-        </a>
-        <Navbar />
-        <main id="main-content">
-          {children}
-        </main>
+        <AxeProvider>
+          <a href="#main-content" className="sr-only skip-link">
+            Skip to main content
+          </a>
+          <Navbar />
+          <main id="main-content">
+            {children}
+          </main>
+          <Footer />
+        </AxeProvider>
       </body>
     </html>
   );
